@@ -11,5 +11,27 @@
     <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">Click me to Display Date and Time.</button>
 
     <p id="demo" style="color: rgb(206, 10, 19);"></p>
+
+    <h2>What can js do?</h2>
+    <p id="change">JavaScript can change html content</p>
+
+    <button onclick="document.getElementById('change').innerHTML = 'Hello JavaScript'"> Click to change HTML content</button>
+
+    <h1>change color of a bulb</h1>
+    <p>JS can change HTML atribute values</p>
+
+    <p>in this case js change the value of a source atribute of an image... </p>
+
+    <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the Light</button>
+
+    <img id="myImage" src="pic_bulboff.gif" style="width: 100px;" alt="">
+
+    <button onclick="document.getElementById('myImage').src = 'pic_bulboff.gif'">Turn of the light</button>
+
+    <h1>change style</h1>
+
+    <p id="size">JS can change style of an HTML element</p>
+
+    <button type="button" onclick="document.getElementById('size').style.fontSize = '38px'">Click to change font size</button>
 </body>
 </html>
