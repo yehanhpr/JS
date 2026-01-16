@@ -18,3 +18,20 @@ h2 {
     font-size: 20px;
     color: rgb(240, 240, 250);
 }
+
+button{
+    background-color: red;
+    color: #f3eeee;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 2px #000000;
+    border: none;
+
+}
+
+button:hover{
+    background-color: green;
+    cursor: pointer;
+    transition: 0.2s;
+}
